@@ -19,4 +19,3 @@ import cucumber.api.junit.Cucumber;
 //strict- Validate the mapping with step definition & scenarion -will fail test case 
 //tags-used to run specific test cases
 //demo for git changes
-//demo 2 changes from other user
