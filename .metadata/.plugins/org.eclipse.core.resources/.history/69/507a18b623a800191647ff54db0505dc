@@ -1,0 +1,28 @@
+package stepDefinations;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+public class Search {
+
+    @Given("^user is on Greencart landpage$")
+    public void user_is_on_greencart_landpage() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user serach for \"([^\"]*)\" Veg$")
+    public void user_serach_for_something_veg(String strArg1) throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^\"([^\"]*)\" results are displayed$")
+    public void something_results_are_displayed(String strArg1) throws Throwable {
+        throw new PendingException();
+    }
+
+}

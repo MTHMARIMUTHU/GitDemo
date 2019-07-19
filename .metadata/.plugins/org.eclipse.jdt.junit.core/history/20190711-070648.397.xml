@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Automation" tests="11" started="11" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumberoption.TestRunner" time="0.018">
+    <testsuite name="Feature: Application login" time="0.002">
+      <testsuite name="Scenario: Home page default login" time="0.002">
+        <testcase name="Given User is on Landing page" classname="Scenario: Home page default login" time="0.001"/>
+        <testcase name="When User login with application user name  password" classname="Scenario: Home page default login" time="0.0"/>
+        <testcase name="Then Home page is populated" classname="Scenario: Home page default login" time="0.001"/>
+        <testcase name="And All credit cards should be displayed" classname="Scenario: Home page default login" time="0.0"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: Application login" time="0.0">
+      <testsuite name="Scenario: Home page default login" time="0.0">
+        <testcase name="Given Validate the Browser" classname="Scenario: Home page default login" time="0.0"/>
+        <testcase name="When Broswer is opened" classname="Scenario: Home page default login" time="0.0"/>
+        <testcase name="Then Browser page should display" classname="Scenario: Home page default login" time="0.0"/>
+        <testcase name="Given User is on Landing page" classname="Scenario: Home page default login" time="0.0"/>
+        <testcase name="When User login with application user name  password" classname="Scenario: Home page default login" time="0.0"/>
+        <testcase name="Then Home page is populated" classname="Scenario: Home page default login" time="0.0"/>
+        <testcase name="And All credit cards should be displayed" classname="Scenario: Home page default login" time="0.0"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

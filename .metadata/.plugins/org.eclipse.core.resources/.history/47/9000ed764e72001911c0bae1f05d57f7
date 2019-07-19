@@ -1,0 +1,23 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        long megabyte = Megabyte.kiloBytes(2024);
+        System.out.println("megabyte = " + megabyte);
+    }
+
+public class Megabyte {
+	 public static long printMegaBytesAndKiloBytes (int kiloBytes)
+	 {
+		 If (kiloBytes <0)
+		 {
+		 System.out.println ("invalid value");
+		 }
+		 else
+		 {
+			double MegaBytesAndKiloBytes= (kiloBytes/1024);
+	 }
+
+}
+	 }
+}

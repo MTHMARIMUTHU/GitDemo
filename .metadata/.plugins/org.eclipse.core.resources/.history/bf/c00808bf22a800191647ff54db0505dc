@@ -1,0 +1,6 @@
+Feature: Search and Place order for Veg
+
+Scenario: Search for items and Validate results
+Given user is on Greencard landpage
+When user serach for "Cucumber" Veg
+Then "Cucumber" results are displayed

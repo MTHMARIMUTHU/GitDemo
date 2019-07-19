@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.565616">
+    <testcase classname="Search and Place order for Veg" name="Search for items and Validate results" time="11.565616">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at stepDefinations.Search.something_results_are_displayed(Search.java:37)&#13;&#10;&#9;at ✽.Then &quot;Cucumber&quot; results are displayed(Search.feature:6)&#13;&#10;">
+            <![CDATA[Given user is on Greencart landpage.........................................passed
+When user serach for "Cucumber" Veg.........................................passed
+Then "Cucumber" results are displayed.......................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinations.Search.something_results_are_displayed(Search.java:37)
+	at ✽.Then "Cucumber" results are displayed(Search.feature:6)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,26 @@
+package Hexaware;
+
+public class SavingsAccount {
+	
+	 double annualInterestRate;
+	 private double savingsBalance;
+
+
+
+public void calculateMonthlyInterest() {
+	
+	double monthlyInterest;
+	monthlyInterest = (annualInterestRate * savingsBalance)/12;
+	
+	
+}
+
+
+public static void modifyInterestRate() {
+	double newValue;
+	double annualInterestRate = newValue;
+	
+}
+
+
+}

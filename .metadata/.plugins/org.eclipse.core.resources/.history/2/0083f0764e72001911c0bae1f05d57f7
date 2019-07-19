@@ -1,0 +1,8 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        long megabyte = Megabyte.kiloBytes(2024);
+        System.out.println("megabyte = " + megabyte);
+    }
+}

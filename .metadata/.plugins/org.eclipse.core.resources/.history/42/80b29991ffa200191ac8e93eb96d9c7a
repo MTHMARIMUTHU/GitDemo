@@ -1,0 +1,7 @@
+Feature:  Application login 
+
+Scenario: Home page default login
+Given User is on Landing page
+When User login with application user name and password
+Then Home page is populated  
+And All credit cards should be displayed

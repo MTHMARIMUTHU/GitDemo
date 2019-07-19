@@ -1,0 +1,490 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Account.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Application login",
+  "description": "",
+  "id": "application-login",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 4,
+  "name": "Home page default login",
+  "description": "",
+  "id": "application-login;home-page-default-login",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@mobtest"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "User is on Landing page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "User login with application user name  password",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "Home page is populated",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "All credit cards should be displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefination.user_is_on_landing_page()"
+});
+formatter.result({
+  "duration": 240391702,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefination.user_login_with_application_user_name_and_password()"
+});
+formatter.result({
+  "duration": 95528,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefination.home_page_is_populated()"
+});
+formatter.result({
+  "duration": 259020,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefination.all_credit_cards_should_be_displayed()"
+});
+formatter.result({
+  "duration": 265817,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 12,
+  "name": "Home page default login",
+  "description": "",
+  "id": "application-login;home-page-default-login",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "User is on Landing page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 14,
+  "name": "User login  application \u003cUsername\u003e and password \u003cpassword\u003e",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 15,
+  "name": "Home page is populated",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "All credit cards should be displayed",
+  "keyword": "And "
+});
+formatter.examples({
+  "line": 18,
+  "name": "",
+  "description": "",
+  "id": "application-login;home-page-default-login;",
+  "rows": [
+    {
+      "cells": [
+        "Username",
+        "password"
+      ],
+      "line": 19,
+      "id": "application-login;home-page-default-login;;1"
+    },
+    {
+      "cells": [
+        "user1",
+        "pass1"
+      ],
+      "line": 20,
+      "id": "application-login;home-page-default-login;;2"
+    },
+    {
+      "cells": [
+        "user2",
+        "pass2"
+      ],
+      "line": 21,
+      "id": "application-login;home-page-default-login;;3"
+    },
+    {
+      "cells": [
+        "user3",
+        "pass3"
+      ],
+      "line": 22,
+      "id": "application-login;home-page-default-login;;4"
+    },
+    {
+      "cells": [
+        "user4",
+        "pass2"
+      ],
+      "line": 23,
+      "id": "application-login;home-page-default-login;;5"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 185392,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 20,
+  "name": "Home page default login",
+  "description": "",
+  "id": "application-login;home-page-default-login;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "User is on Landing page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 14,
+  "name": "User login  application user1 and password pass1",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 15,
+  "name": "Home page is populated",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "All credit cards should be displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefination.user_is_on_landing_page()"
+});
+formatter.result({
+  "duration": 86844,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "user1",
+      "offset": 24
+    },
+    {
+      "val": "pass1",
+      "offset": 43
+    }
+  ],
+  "location": "StepDefination.user_login_with_application_user_name_user_and_password_pass(String,String)"
+});
+formatter.result({
+  "duration": 3459395,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefination.home_page_is_populated()"
+});
+formatter.result({
+  "duration": 91752,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefination.all_credit_cards_should_be_displayed()"
+});
+formatter.result({
+  "duration": 82690,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 97793,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 67587,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 21,
+  "name": "Home page default login",
+  "description": "",
+  "id": "application-login;home-page-default-login;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "User is on Landing page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 14,
+  "name": "User login  application user2 and password pass2",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 15,
+  "name": "Home page is populated",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "All credit cards should be displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefination.user_is_on_landing_page()"
+});
+formatter.result({
+  "duration": 324719,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "user2",
+      "offset": 24
+    },
+    {
+      "val": "pass2",
+      "offset": 43
+    }
+  ],
+  "location": "StepDefination.user_login_with_application_user_name_user_and_password_pass(String,String)"
+});
+formatter.result({
+  "duration": 208802,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefination.home_page_is_populated()"
+});
+formatter.result({
+  "duration": 66831,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefination.all_credit_cards_should_be_displayed()"
+});
+formatter.result({
+  "duration": 237120,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 222395,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 107610,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 22,
+  "name": "Home page default login",
+  "description": "",
+  "id": "application-login;home-page-default-login;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "User is on Landing page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 14,
+  "name": "User login  application user3 and password pass3",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 15,
+  "name": "Home page is populated",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "All credit cards should be displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefination.user_is_on_landing_page()"
+});
+formatter.result({
+  "duration": 93263,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "user3",
+      "offset": 24
+    },
+    {
+      "val": "pass3",
+      "offset": 43
+    }
+  ],
+  "location": "StepDefination.user_login_with_application_user_name_user_and_password_pass(String,String)"
+});
+formatter.result({
+  "duration": 434973,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefination.home_page_is_populated()"
+});
+formatter.result({
+  "duration": 232590,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefination.all_credit_cards_should_be_displayed()"
+});
+formatter.result({
+  "duration": 239386,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 282430,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 406655,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 23,
+  "name": "Home page default login",
+  "description": "",
+  "id": "application-login;home-page-default-login;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "User is on Landing page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 14,
+  "name": "User login  application user4 and password pass2",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 15,
+  "name": "Home page is populated",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "All credit cards should be displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefination.user_is_on_landing_page()"
+});
+formatter.result({
+  "duration": 228059,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "user4",
+      "offset": 24
+    },
+    {
+      "val": "pass2",
+      "offset": 43
+    }
+  ],
+  "location": "StepDefination.user_login_with_application_user_name_user_and_password_pass(String,String)"
+});
+formatter.result({
+  "duration": 464802,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefination.home_page_is_populated()"
+});
+formatter.result({
+  "duration": 81935,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefination.all_credit_cards_should_be_displayed()"
+});
+formatter.result({
+  "duration": 67964,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 55882,
+  "status": "passed"
+});
+});

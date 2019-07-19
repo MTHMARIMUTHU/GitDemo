@@ -1,0 +1,36 @@
+Feature:  Application login 
+
+Scenario: Home page default login
+Given User is on Landing page
+When User login with application user name "Mari" and password "1234"
+Then Home page is populated  
+And All credit cards should be displayed
+
+Scenario: Home page default login
+Given User is on Landing page
+When User login with application user name "Marim" and password "2345"
+Then Home page is populated  
+And All credit cards should not be displayed
+
+
+Scenario: Home page default login
+Given User is on Landing page
+When User login details enter
+|Jenny | abcd | India |marimuthu@gmail.com | 5512635706 |
+Then Home page is populated  
+And All credit cards should be displayed
+
+
+Scenario Outline: Home page default login
+Given User is on Landing page
+When User login with application <Username> and password <password>
+Then Home page is populated  
+And All credit cards should be displayed
+
+Examples:
+|Username |password|
+|user1    |pass1|
+|user2    |pass2|
+|user3    |pass3|
+|user4    |pass2|
+

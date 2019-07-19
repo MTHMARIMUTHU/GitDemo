@@ -1,0 +1,35 @@
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the sum no:");
+        boolean hasNext = scanner.hasNextInt();
+        int count=0;
+        int sum=0;
+        while (count >10) 
+        {
+        	 if(hasNext)
+        	{
+        	System.out.println("Enter the sum no:");
+            int nosOfSum = scanner.nextInt();
+        	scanner.nextLine();
+        	System.out.println("Enter your No: "+nosOfSum);
+        	count ++;
+        	sum =sum+nosOfSum;        	
+             // handle next line character (enter key)
+            System.out.println("Enter your Sum: "+sum);
+        }
+        	 else {
+                 System.out.println("it is not valid no");
+        
+        }
+        
+        }
+
+        scanner.close();
+    }
+}

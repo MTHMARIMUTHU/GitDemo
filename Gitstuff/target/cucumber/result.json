@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Search for items and Validate results",
+        "description": "",
+        "id": "search-and-place-order-for-veg;search-for-items-and-validate-results",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11080616575,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Greencart landpage",
+            "match": {
+              "location": "Search.user_is_on_greencart_landpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 435807823,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user serach for \"Cucumber\" Veg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 17
+                }
+              ],
+              "location": "Search.user_serach_for_something_veg(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49191637,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinations.Search.something_results_are_displayed(Search.java:37)\r\n\tat ✽.Then \"Cucumber\" results are displayed(Search.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "\"Cucumber\" results are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 1
+                }
+              ],
+              "location": "Search.something_results_are_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@autoTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search and Place order for Veg",
+    "description": "",
+    "id": "search-and-place-order-for-veg",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]

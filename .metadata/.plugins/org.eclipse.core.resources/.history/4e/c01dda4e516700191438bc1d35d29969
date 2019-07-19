@@ -1,0 +1,18 @@
+
+public class variable {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+
+		int a=214748364;
+		byte b=32;
+		short s=120;
+		long l =(50000+(b*10)+s+a);
+		System.out.println(l);
+		
+				
+				
+	}
+
+}

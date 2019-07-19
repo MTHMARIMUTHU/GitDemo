@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Automation" tests="3" started="3" failures="0" errors="2" ignored="2">
+  <testsuite name="cucumberoption.TestRunner" time="0.0">
+    <testsuite name="Feature: Search and Place order for Veg" time="0.0">
+      <testsuite name="Scenario: Search for items and Validate results" time="0.0" incomplete="true">
+        <error>java.lang.Error: Unresolved compilation problem: 
+	ChromeDriver cannot be resolved to a type
+&#13;
+	at stepDefinations.Search.user_is_on_greencart_landpage(Search.java:21)&#13;
+	at ✽.Given user is on Greencart landpage(Search.feature:4)&#13;
+&#13;
+</error>
+        <testcase name="Given user is on Greencart landpage" classname="Scenario: Search for items and Validate results" time="0.0">
+          <error>java.lang.Error: Unresolved compilation problem: 
+	ChromeDriver cannot be resolved to a type
+&#13;
+	at stepDefinations.Search.user_is_on_greencart_landpage(Search.java:21)&#13;
+	at ✽.Given user is on Greencart landpage(Search.feature:4)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When user serach for &quot;Cucumber&quot; Veg" classname="Scenario: Search for items and Validate results" time="0.0" ignored="true"/>
+        <testcase name="Then &quot;Cucumber&quot; results are displayed" classname="Scenario: Search for items and Validate results" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

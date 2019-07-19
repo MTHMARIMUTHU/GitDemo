@@ -1,0 +1,21 @@
+package Hexaware;
+
+public class Customer {
+	
+	String customerId = "001";
+	String customerName = "Tom";
+	String address = "FL";
+	String zipcode = "12345";
+	
+	public void display() 
+	{
+	
+		System.out.println(customerId);
+		System.out.println(customerName);
+		System.out.println(address);
+		System.out.println(zipcode);
+		
+		
+	}
+
+}

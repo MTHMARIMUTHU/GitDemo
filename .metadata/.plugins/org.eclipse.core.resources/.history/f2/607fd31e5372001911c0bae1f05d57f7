@@ -1,0 +1,25 @@
+public class MegaBytesConverter {
+
+    public static void main(String[] args) {
+
+        long mega = MegaBytesConverter.printMegaBytesAndKiloBytes(2024);
+        System.out.println("megabyte = " + mega);
+    }
+
+	 public static long printMegaBytesAndKiloBytes (int kiloBytes)
+	 {
+		 If(kiloBytes<0);
+		 {
+		 System.out.println ("invalid value");
+		 }
+		 else 
+		 {
+			int MegaBytes= (kiloBytes/1024);
+			int kB=(kiloBytes%1024);
+			System.out.println ( kiloBytes + "KB=" + MegaBytes + "MB And" + kB + "KB" );
+	
+
+}
+ }
+}
+

@@ -1,0 +1,15 @@
+public class Megabyte {
+	 public static long printMegaBytesAndKiloBytes (int kiloBytes)
+	 {
+		 If (kiloBytes <0)
+		 {
+		 System.out.println ("invalid value");
+		 }
+		 else
+		 {
+			double MegaBytesAndKiloBytes= (kiloBytes/1024);
+	 }
+
+}
+	 }
+

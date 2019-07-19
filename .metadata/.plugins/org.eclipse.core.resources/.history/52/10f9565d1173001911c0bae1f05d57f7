@@ -1,0 +1,10 @@
+
+public class ShouldWakeUp {
+	boolean barking;
+	int hourofday;
+	
+	if (barking =true)
+	{
+	
+
+}

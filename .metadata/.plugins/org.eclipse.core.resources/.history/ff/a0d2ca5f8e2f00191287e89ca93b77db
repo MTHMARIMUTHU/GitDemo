@@ -1,0 +1,11 @@
+package Hexaware;
+
+public class TestCustomer {
+
+	public static void main(String[] args) {
+		Customer obj1 = new Customer();
+		obj1.display();
+
+	}
+
+}
