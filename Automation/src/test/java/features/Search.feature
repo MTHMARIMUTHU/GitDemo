@@ -5,4 +5,6 @@ Given user is on Greencart landpage
 When user serach for "Cucumber" Veg
 Then "Cucumber" results are displayed
 
+@regressionTest
+
 
